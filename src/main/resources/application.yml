@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  security:
+    user:
+      name: user
+      password: user
+  datasource:
+    url: jdbc:postgresql://library-db:5432/library_db
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
