@@ -98,6 +98,8 @@ A complete Postman Collection is included:
 
 - 🔐 JWT Bearer authentication support
 
+[Collection Link](https://drive.google.com/file/d/1ntxAZR5Jb6A5KnVB-5fqpnmY5H5UmT2e/view?usp=sharing)
+
 ## 📎 Additional Notes
 - Logback is used to log all key application events (console & file).
 
